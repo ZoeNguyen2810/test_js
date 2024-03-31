@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}

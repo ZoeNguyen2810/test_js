@@ -1,12 +1,14 @@
 {
-  "type": "module",
-  "devDependencies": {
-    "esm": "^3.2.25",
-    "jest": "^29.7.0"
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "For unit Testing",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "jest"
   },
-  "jest": {
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    }
+  "author": "Elzero",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
